@@ -1,0 +1,139 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+/* =========================== Project Start======================== */
+
+/* Utility Classes Start =======================================================*/
+.head1{
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.head2{
+  font-size: 55px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.head3{
+  font-size: px;
+}
+.head3Hero{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: .3rem;
+}
+
+.padTop{
+  padding-top: 40px;
+}
+.padBot{
+  padding-bottom: 40px;
+}
+
+/* Utility Classes End ===========================================================*/
+
+/* Section Main Start ===================================================================== */
+#main{
+
+  /* overflow-x: hidden; */
+  background-image: url(../public/images/hero-bg.jpg);
+  background-size: cover;
+
+}
+.ring{
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* .socialDiv{
+  display: none;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.ring:hover + .socialDiv{
+  display: block;
+ 
+} */
+
+.listSpan{
+  display: none;
+  transition: 0.5s;
+}
+
+.list-group-item{
+  position: relative;
+
+}
+.list-group-item :hover+.listSpan{
+display: block;
+
+position: absolute;
+top: 0%;
+right: 30%;
+transform: translateX(0%);
+}
+
+#heroBtn>button{
+  transition: 0.5s linear;
+}
+#heroBtn button:hover{
+  background-color: white !important;
+  color: black !important;
+}
+
+.line{
+  width: 2px;
+  height: 102px;
+  background-color: #39b54a;
+}
