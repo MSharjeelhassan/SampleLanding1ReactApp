@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
-
+// https://preview.colorlib.com/theme/glint/index.html#about
 let social = [
   {
     title: "Facebook",
